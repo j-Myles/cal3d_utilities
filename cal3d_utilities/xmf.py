@@ -2,11 +2,6 @@
 
 
 class XMF:
-    def __init__(self, verts, faces):
-        self.verts = verts
-        self.faces = faces
-
-
-def nothing():
-    pass
-
+    def __init__(self, mesh, ver=919):
+        self.mesh = mesh
+        self.ver = ver
